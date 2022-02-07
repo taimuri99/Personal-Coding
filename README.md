@@ -16,4 +16,6 @@ Using VBA script we create a script that makes cell (i) black and leave cell (i+
 
 <img width="521" alt="Screenshot 2022-02-07 at 11 36 17" src="https://user-images.githubusercontent.com/87828174/152831126-49456db5-5586-405c-86f6-8daaaa4a4663.png">
 
+The last image shows the VBA script.
 
+<img width="284" alt="Screenshot 2022-02-07 at 11 37 01" src="https://user-images.githubusercontent.com/87828174/152831270-09e686dc-b7ae-433c-b999-1acf6db9909b.png">
