@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% _______ ______ __  __ _____  _            _______ ______ 
+%|__   __|  ____|  \/  |  __ \| |        /\|__   __|  ____|
+%   | |  | |__  | \  / | |__) | |       /  \  | |  | |__   
+%   | |  |  __| | |\/| |  ___/| |      / /\ \ | |  |  __|  
+%   | |  | |____| |  | | |    | |____ / ____ \| |  | |____ 
+%   |_|  |______|_|  |_|_|    |______/_/    \_\_|  |______|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article} % Don't change this
+%
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[siunitx]{circuitikz}
+\usepackage{tikz}
+\usepackage[colorinlistoftodos, color=orange!50]{todonotes}
+\usepackage{hyperref}
+\usepackage[numbers, square]{natbib}
+\usepackage{fancybox}
+\usepackage{epsfig}
+\usepackage{soul}
+\usepackage[framemethod=tikz]{mdframed}
+%
+\newcommand{\blah}{blah blah blah \dots}
+%
+\setlength{\marginparwidth}{3.4cm}
+%To use symbols for footnotes
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{
+\normalfont \normalsize 
+\textsc{5CCP211C-Introduction to numerical modelling, \\Physics Dept., King's College London} \\
+[10pt] 
+\rule{\linewidth}{0.5pt} \\[6pt] 
+\huge Title of Computational Practical \\
+\rule{\linewidth}{2pt}  \\[10pt]
+}
+\author{Full Name-Student 1; Full-Name-Student 2}
+\date{\normalsize \today}
+
+\begin{document}
+
+\maketitle
+\noindent
+Date performed \dotfill January 0, 2018 \\
+Group \dotfill 1 or 2 \\
+Pair \dotfill Pair\# \\
+
+\section{Before the lab.}
+\label{Sec:before}
+Report here the answer to the questions on the theoretical aspects of the practical itself. It might be to report a bit of physics, or an algorithm, or some coding.
+Add an in-line equation use the dollar symbol, as $\left(x+1 = y\right)$, while if you want to number them and to be able to cite them in the text, as see Eq.\ref{Eq:lin}
+\begin{equation}
+x+1 = y  \mbox{~~~.}
+\label{Eq:lin}
+\end{equation}
+Please use eqnarray if you want a bunch of equations, where all of them are numbered or only a few, as in Eq.\ref{Eq:lin2}
+\begin{eqnarray}
+\nonumber
+x+1 &=& y \\  
+y &=&  \frac{\partial x}{\partial t} \\
+\nonumber x &\in& [0,\infty)   \mbox{~~~.}
+\label{Eq:lin2}
+\end{eqnarray}
+Eqs.\ref{Eq:lin}-\ref{Eq:lin2} are not to be meaningful of any specific physical problem.
+
+\section{Plan of your code}
+You should report here the structure of your code and how it was implemented.
+Make a good use of what you have in Sec. \ref{Sec:before}, and try to use meaningful name =s for your variables.
+
+\section {Collection of Data}
+If it is required to collected data, report what simulations have you performed and sum-up their results. Pls if you upload a image, be sure that it is properly numbered and captioned. In the text, refer to it when needed.
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% FOR A NUMBERED LIST
+% \begin{enumerate}
+% \item Your_Item
+% \end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%
+% FOR A BULLETED LIST
+% \begin{itemize}
+% \item Your_Item
+% \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TO IMPORT AN IMAGE
+% UPLOAD IT FIRST (HIT THE PROJECT BUTTON TO SHOW FILES)
+% KEEP THE NAME SHORT WITH NO SPACES!
+% TYPE THE FOLLOWING WITH THE NAME OF YOUR FILE
+% DON'T INCLUDE THE FILE EXTENSION
+% \includegraphics[width=\textwidth]{name_of_file}
+% \textwidth makes the picture the width of the paragraphs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TO CREATE A FIGURE WITH A NUMBER AND CAPTION
+% \begin{figure}
+% \includegraphics[width=\textwidth]{image}
+% \caption{Your Caption Goes Here}
+% \label{your_label}
+% \end{figure}
+% REFER TO YOUR FIGURE LATER WITH
+% \ref{your_label}
+% LABELS NEED TO BE ONE WORD
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section {Discussion of Data}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Make a short statement of what you have learned, and which information you have gathered, and how your code works towards it.
+
+\section{Constructive Feedback}
+Not mandatory but you can suggest improvements for future labs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+			% BIBLIOGRAPHY: %
+% Make sure your class *.bib file is uploaded to this project by clicking the project button > add files. Change 'sample' below to the name of your file without the .bib extension.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{plainnat}
+%\bibliography{sample}
+
+% UNCOMMENT THE TWO LINES ABOVE TO ENABLE BIBLIOGRAPHY
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document} 
