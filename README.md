@@ -1,6 +1,6 @@
 # Personal Coding
 ## Physics Problems
-Python code used to simulate complex physical problems such as the Ising Model, Planetary Motion, and Montecarlo behvaiour. 
+Python code used to simulate complex physical problems such as the Ising Model, Planetary Motion, and Kinetic Theory of Gases using Montecarlo methods. 
 
 
 ## Fun-Stuff
